@@ -60,7 +60,7 @@
     color:white;
     font-weight: bold;
   }
-  .form input[type="button"]:hover{
+.form input[type="button"]:hover{
     background-color: #214582;
   }
 .content ul li{
@@ -115,12 +115,27 @@
 }
 .st2
 {
+  font-size: 12px;
+  font-weight: lighter;
   margin-top: 0px;
   padding-top: 0px;
 }
 .signupForm input{
-  border-radius: 5px 5px;
+  border-radius: 3px 3px;
   height: 20px;
   border-style: none;
   border: 1px solid #3d6abf
+}
+.signup input{
+  height:35px;
+  font-size: 16px;
+  border-color: #ddd;
+  padding-left: 10px;
+}
+.passwordT{
+  width: 400px;
+}
+.passwordd{
+  width: 192px;
+  margin-top: 10px;
 }
