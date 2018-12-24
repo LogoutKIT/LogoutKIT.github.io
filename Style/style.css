@@ -1,0 +1,110 @@
+.Icon{
+  position: relative;
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 35px;
+  transition: 0.3s;
+}
+.Center{
+  margin-top: 45%;
+}
+.Center div{
+  border: 1px solid #555;
+  padding: 15px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  transition: 0.5s;
+  box-shadow: 0px 0px 0px white;
+}
+body{
+  color: white;
+  background-color: black;
+}
+.background{
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  background-image: url("/source/wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.3;
+}
+.Center div:hover{
+  border-radius: 100px;
+  box-shadow: 0 0  50px	#555;
+  border: 3px solid #fff;
+  cursor:pointer
+}
+a{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.Center div:hover a{
+  color: 	#ffefef   ;
+  text-shadow: 0px 0px 80px #333;
+}
+#txt{
+  position: fixed;
+  font-size: 25px;
+  font-family: Verdana ;
+  font-weight: 400;
+  top: 50px;
+  right: 100px;
+  text-shadow: 0px 0px 80px #66FF66;
+}
+.welcome div{
+  position: relative;
+  float: right;
+  margin-top: 40px;
+  color: #777;
+  left: -10px;
+  text-shadow:0 0 50px 5px #ddd ;
+}
+.welcome label{
+  top: 10px;
+  display: inline-block;
+  position: absolute;
+  width: 500px;
+  font-weight: 500;
+  font-size: 16px;
+  left:80px;
+}
+.welcome{
+  position: fixed;
+  font-size: 15px;
+  font-family: Verdana;
+  font-weight: 400;
+  top: 40px;
+  left: 100px;
+  text-shadow: 0px 0px 80px #ddd;
+}
+.welcome i img{
+  position: relative;
+  width: 50px;
+  margin-right: 40px;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.welcome i img:hover{
+  box-shadow:0 0 50px 5px #444 ;
+}
+.welcome i img:hover #welcome{
+  font-size: 100px;
+}
+.menu{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.menu li{
+  text-align: center;
+  list-style-type: none;
+}
