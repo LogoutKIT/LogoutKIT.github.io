@@ -1,3 +1,6 @@
+i{
+  transition: 0.3s;
+}
 .Icon{
   position: relative;
   display: inline-block;
@@ -47,7 +50,7 @@ a{
   color: black;
   transition: 0.5s;
 }
-.Center div:hover a{
+.Center div:hover i{
   color: 	#ffefef   ;
   text-shadow: 0px 0px 80px #333;
 }
