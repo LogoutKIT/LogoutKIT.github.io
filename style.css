@@ -30,7 +30,7 @@ body{
   height: 100%;
   position: absolute;
   display: block;
-  background-image: url("/source/wallpaper.jpg");
+  background-image: url("/wallpaper.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
